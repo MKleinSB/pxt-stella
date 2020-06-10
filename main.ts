@@ -72,7 +72,7 @@ namespace Stella {
      * @param max Maximalwert, z.B.: 255
      */
     //% blockId=stella_show_bar_graph block="zeige Balkendiagramm von %wert|bis %max"
-
+    //% max.defl=1023
     export function showStellaBarGraph(wert: number, max: number) {
         Stellastrip.showBarGraph(wert, max)
     }
